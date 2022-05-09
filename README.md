@@ -17,23 +17,25 @@ Domain-Driven-Design approach.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Installation](#installation)
-  - [With Maven](#with-maven)
-- [🍧 DDD Annotations](#-ddd-annotations)
-  - [Aggregate](#aggregate)
-  - [Bounded Context](#bounded-context)
-  - [Core Concept](#core-concept)
-  - [Domain Command](#domain-command)
-  - [Domain Event](#domain-event)
-  - [Value Object](#value-object)
-- [🌐 HTML Documentation](#-html-documentation)
-- [🗺️ ROADMAP](#-roadmap)
-- [&#91;FOR DEVELOPERS ONLY&#93; Development workflow](#for-developers-only-development-workflow)
-  - [Release policy](#release-policy)
-- [Technologies](#technologies)
-- [References](#references)
-- [Join us 🙋](#join-us-)
-- [Contributors ✨](#contributors-)
+- [🍬 Candy Doc](#-candy-doc)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+    - [With Maven](#with-maven)
+  - [🍧 DDD Annotations](#-ddd-annotations)
+    - [Aggregate](#aggregate)
+    - [Bounded Context](#bounded-context)
+    - [Core Concept](#core-concept)
+    - [Domain Command](#domain-command)
+    - [Domain Event](#domain-event)
+    - [Value Object](#value-object)
+  - [🌐 HTML Documentation](#-html-documentation)
+  - [🗺️ ROADMAP](#️-roadmap)
+  - [[FOR DEVELOPERS ONLY] Development workflow](#for-developers-only-development-workflow)
+    - [Release policy](#release-policy)
+  - [Technologies](#technologies)
+  - [References](#references)
+  - [Join us 🙋](#join-us-)
+  - [Contributors ✨](#contributors-)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -211,6 +213,17 @@ Every time a new version is about to be released, a merge from your new branch t
 will create a new tag and a new package in the package registry.
 
 ![feature-branch-rebase-final.png](assets/screenshots/feature-branch-rebase-final.png)
+
+```mermaid
+graph TD;
+    1 --> 2;
+    2 --> 1bis;
+    1bis --> 2bis;
+    2bis --> 3bis;
+    2 --> 3;
+    3 --> 4;
+    4 --> 5;
+```
 
 Explanations:
 
